@@ -1,6 +1,8 @@
 #ifndef STORAGE_LEVELDB_INCLUDE_C_H_
 #define STORAGE_LEVELDB_INCLUDE_C_H_
 
+// Leveldb的c绑定
+
 // 如果cpp存在，强制编译器用c编译器编译
 #ifdef __cplusplus
 extern "C" {

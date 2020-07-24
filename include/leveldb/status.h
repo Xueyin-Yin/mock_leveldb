@@ -93,7 +93,7 @@ namespace leveldb {
     inline Status& Status::operator=(Status&& rhs) noexcept {
         std::swap(state_, rhs.state_);
         return *this;
-    }
+    }     
 }
 
 #endif
